@@ -1,0 +1,108 @@
+/* Thème global */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: #121212;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: url('images/garage-bg.webp') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #e50914;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: transform 0.3s ease, background 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: #b00710;
+}
+
+/* Services */
+.services, .vehicles, .contact {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.service-list, .vehicle-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card, .vehicle-card {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.service-card:hover, .vehicle-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(229, 9, 20, 0.3);
+}
+
+/* Contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact button:hover {
+  background: #b00710;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1c1c1c;
+  margin-top: 40px;
+}
