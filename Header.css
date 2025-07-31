@@ -1,0 +1,26 @@
+.header a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.header a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background: #e50914;
+  transition: width 0.3s;
+}
+
+.header a:hover {
+  color: #e50914;
+}
+
+.header a:hover::after {
+  width: 100%;
+}
