@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Garage Auto - Entretien, réparation et vente de voitures. Un garage professionnel avec des services fiables et rapides." />
+    <meta name="keywords" content="garage, réparation voiture, entretien, vente automobile, garage auto" />
+    <meta name="author" content="Garage Auto" />
+    
+    <title>Garage Auto - Entretien & Vente de Voitures</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    
+    <!-- Open Graph pour réseaux sociaux -->
+    <meta property="og:title" content="Garage Auto - Entretien & Vente de Voitures" />
+    <meta property="og:description" content="Votre garage de confiance pour l'entretien, la réparation et la vente de voitures." />
+    <meta property="og:image" content="%PUBLIC_URL%/garage-preview.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.garage-auto.fr" />
+  </head>
+  <body>
+    Hello
+    <div id="root"></div>
+  </body>
+</html>
